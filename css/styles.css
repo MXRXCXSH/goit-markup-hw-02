@@ -137,7 +137,7 @@ h1 {
 .footer {
   background-color: #2e2f42;
 }
-footer-logo {
+.footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -146,7 +146,7 @@ footer-logo {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-footer-logo-span {
+.footer-logo-span {
   color: #f4f4fd;
 }
 .footer-text {
