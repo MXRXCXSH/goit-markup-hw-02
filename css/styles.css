@@ -256,6 +256,7 @@ address {
 .team-info {
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 264px;
 }
 
 .team-members {
