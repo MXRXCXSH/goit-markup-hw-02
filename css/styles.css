@@ -228,6 +228,7 @@ address {
   padding-top: 120px;
   padding-bottom: 36px;
   border-block-start: 36px;
+  margin-bottom: 72px;
 }
 
 .team-list-container {
@@ -242,7 +243,13 @@ address {
 }
 
 .team-list {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team info {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-members {
@@ -251,12 +258,15 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* -----------PORTFOLIO----------- */
