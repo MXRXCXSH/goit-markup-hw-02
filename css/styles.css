@@ -32,7 +32,12 @@ address {
   font-style: normal;
 }
 .container {
-  max-width: 1440px;
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* -----------HEADER----------- */
 
@@ -320,7 +325,7 @@ address {
 }
 .portfolio-info {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
