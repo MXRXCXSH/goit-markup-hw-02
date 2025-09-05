@@ -313,8 +313,7 @@ address {
   align-items: center;
   gap: 48px 24px;
   margin: 0 auto;
-  padding-left: 156px;
-  padding-right: 156px;
+  max-width: 1128px;
 }
 
 .portfolio-list {
