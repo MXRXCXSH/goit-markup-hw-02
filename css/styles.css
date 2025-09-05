@@ -36,11 +36,16 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+}
+.container-narrow {
+  width: 1158px;
+  padding: 0 15px 0 15px;
 }
 
 .header-navigation {
@@ -70,6 +75,8 @@ address {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation:hover,
@@ -110,6 +117,7 @@ address {
 .header-contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 /* -----------MAIN----------- */
 
