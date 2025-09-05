@@ -19,68 +19,72 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >web<span class="logo-span">Studio</span></a
-        >
-        <ul>
-          <li>
-            <a href="./index.html" class="navigation">Studio</a>
-          </li>
-          <li>
-            <a href="" class="navigation">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="navigation">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="cont-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="cont-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="header-container">
+        <nav class="header-navigation">
+          <a class="logo" href="./index.html"
+            >web<span class="logo-span">Studio</span></a
+          >
+          <ul class="header-menu-list">
+            <li>
+              <a href="./index.html" class="navigation">Studio</a>
+            </li>
+            <li>
+              <a href="" class="navigation">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="navigation">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="header-contacts-list">
+            <li class="header-contacts-item">
+              <a href="mailto:info@devstudio.com" class="cont-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts-item">
+              <a href="tel:+110001111111" class="cont-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="main-section">
-        <h1 class="main-header">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <div class="main-container">
+          <h1 class="main-header">Effective Solutions for Your Business</h1>
+          <button type="button" class="button">Order Service</button>
+        </div>
       </section>
       <section class="features-section">
-        <h2 class="features-header">Features</h2>
-        <ul>
-          <li>
+        <h2 class="visually-hidden">Features</h2>
+        <ul class="features-advantages-list">
+          <li class="features-item">
             <h3 class="features-advantages">Strategy</h3>
             <p class="features-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-advantages">Punctuality</h3>
             <p class="features-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-advantages">Diligence</h3>
             <p class="features-description">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-advantages">Technologies</h3>
             <p class="features-description">
               Design practice focused on digital experiences. We bring forth a
@@ -91,7 +95,7 @@
       </section>
       <section class="team-section">
         <h2 class="team-header">Our Team</h2>
-        <ul>
+        <ul class="team-list-container">
           <li class="team-list">
             <img src="./images/img001.jpg" alt="Mark Guerrero" width="264" />
             <h3 class="team-members">Mark Guerrero</h3>
@@ -115,43 +119,63 @@
         </ul>
       </section>
       <section class="portfolio-section">
-        <h2 class="portfolio-header">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/img101.jpg" alt="Banking App" width="360" />
-            <h3 class="portfolio-offers">Banking App</h3>
-            <p class="portfolio-offers-description">App</p>
-          </li>
-          <li>
-            <img src="./images/img110.jpg" alt="Cashless Payment" width="360" />
-            <h3 class="portfolio-offers">Cashless Payment</h3>
-            <p class="portfolio-offers-description">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img111.jpg" alt="Meditation App" width="360" />
-            <h3 class="portfolio-offers">Meditation App</h3>
-            <p class="portfolio-offers-description">App</p>
-          </li>
-          <li>
-            <img src="./images/img1000.jpg" alt="Taxi Service" width="360" />
-            <h3 class="portfolio-offers">Taxi Service</h3>
-            <p class="portfolio-offers-description">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img1001.jpg"
-              alt="Screen Illustrations"
-              width="360"
-            />
-            <h3 class="portfolio-offers">Screen Illustrations</h3>
-            <p class="portfolio-offers-description">Design</p>
-          </li>
-          <li>
-            <img src="./images/img1010.jpg" alt="Online Courses" width="360" />
-            <h3 class="portfolio-offers">Online Courses</h3>
-            <p class="portfolio-offers-description">Marketing</p>
-          </li>
-        </ul>
+        <div class="portfolio-container">
+          <h2 class="portfolio-header">Our Portfolio</h2>
+          <ul>
+            <div class="portfolio-list-container">
+              <li class="portfolio-list">
+                <img src="./images/img101.jpg" alt="Banking App" width="360" />
+                <h3 class="portfolio-offers">Banking App</h3>
+                <p class="portfolio-offers-description">App</p>
+              </li>
+              <li class="portfolio-list">
+                <img
+                  src="./images/img110.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <h3 class="portfolio-offers">Cashless Payment</h3>
+                <p class="portfolio-offers-description">Marketing</p>
+              </li>
+              <li class="portfolio-list">
+                <img
+                  src="./images/img111.jpg"
+                  alt="Meditation App"
+                  width="360"
+                />
+                <h3 class="portfolio-offers">Meditation App</h3>
+                <p class="portfolio-offers-description">App</p>
+              </li>
+              <li class="portfolio-list">
+                <img
+                  src="./images/img1000.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
+                <h3 class="portfolio-offers">Taxi Service</h3>
+                <p class="portfolio-offers-description">Marketing</p>
+              </li>
+              <li class="portfolio-list">
+                <img
+                  src="./images/img1001.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+                <h3 class="portfolio-offers">Screen Illustrations</h3>
+                <p class="portfolio-offers-description">Design</p>
+              </li>
+              <li class="portfolio-list">
+                <img
+                  src="./images/img1010.jpg"
+                  alt="Online Courses"
+                  width="360"
+                />
+                <h3 class="portfolio-offers">Online Courses</h3>
+                <p class="portfolio-offers-description">Marketing</p>
+              </li>
+            </div>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">

@@ -1,48 +1,18 @@
-.button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
-.button:hover,
-:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.contacts {
-  font-style: normal;
-}
-.contacts .cont-link {
-  color: #434455;
-  text-decoration: none;
 
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.contacts .cont-link:hover,
-.contacts .cont-link:focus {
-  color: #404bbf;
-  text-decoration: none;
-}
-.navigation {
-  color: #2e2f42;
-  text-decoration: none;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 16px;
-}
-.navigation:hover,
-.navigation:focus {
-  color: #404bbf;
-  text-decoration: none;
-}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -52,6 +22,32 @@ a {
 ul {
   list-style: none;
 }
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+/* -----------HEADER----------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -60,19 +56,137 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
+
 .logo-span {
   color: #2e2f42;
 }
+
+.navigation {
+  color: #2e2f42;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts .cont-link {
+  color: #434455;
+  text-decoration: none;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts .cont-link:hover,
+.contacts .cont-link:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.contacts {
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+}
+/* -----------MAIN----------- */
+
 .main-section {
   background-color: #2e2f42;
 }
+
 .main-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 526px;
+  max-height: 120px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-top: 60px;
+}
+
+.main-container {
+  max-width: 1440px;
+  max-height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 56px;
+  min-width: 169px;
+  border-radius: 4px;
+  border: none;
+}
+
+.button:hover,
+:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* -----------FEATURES----------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-advantages-list {
+  max-width: 1128px;
+  max-height: 104px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 .features-advantages {
   font-weight: 500;
@@ -81,15 +195,20 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .features-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* -----------TEAM----------- */
+
 .team-section {
   background-color: #f4f4fd;
 }
+
 .team-header {
   font-size: 36px;
   line-height: 1.11;
@@ -97,10 +216,26 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 36px;
+  border-block-start: 36px;
 }
+
+.team-list-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 36px;
+  padding-bottom: 120px;
+}
+
 .team-list {
-  background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
 }
+
 .team-members {
   font-weight: 500;
   font-size: 20px;
@@ -108,11 +243,15 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* -----------PORTFOLIO----------- */
+
 .portfolio-header {
   font-size: 36px;
   line-height: 1.11;
@@ -120,7 +259,13 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  max-width: 232px;
+  margin-top: 120px;
+  margin-right: 611px;
+  margin-left: 611px;
+  margin-bottom: 48px;
 }
+
 .portfolio-offers {
   font-weight: 500;
   font-size: 20px;
@@ -128,15 +273,39 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-offers-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.portfolio-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px 24px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 24px;
+}
+
+.portfolio-list {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+/* FOOTER */
+
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  padding-right: 1020px;
 }
+
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -146,9 +315,11 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-logo-span {
   color: #f4f4fd;
 }
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
