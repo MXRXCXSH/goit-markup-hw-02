@@ -31,6 +31,9 @@ button {
 address {
   font-style: normal;
 }
+.container {
+  max-width: 1440px;
+}
 /* -----------HEADER----------- */
 
 .header {
@@ -39,7 +42,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.header-container {
   display: flex;
   align-items: center;
   width: 1158px;
@@ -122,8 +125,11 @@ address {
 
 .main-section {
   background-color: #2e2f42;
+  max-width: 1440px;
+  max-height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
 }
 
 .main-header {
@@ -132,7 +138,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
+  max-width: 550px;
   max-height: 120px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -187,8 +193,6 @@ address {
   max-width: 1128px;
   max-height: 104px;
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -215,6 +219,7 @@ address {
 /* ----------- SECTION THREE (TEAM)----------- */
 
 .team-section {
+  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -271,6 +276,11 @@ address {
 }
 
 /* ----------- SECTION FOUR (PORTFOLIO)----------- */
+
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-header {
   font-size: 36px;
