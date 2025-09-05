@@ -139,13 +139,6 @@ address {
   margin-top: 60px;
 }
 
-.main-container {
-  max-width: 1440px;
-  max-height: 600px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -171,6 +164,12 @@ address {
 }
 
 /* -----------FEATURES----------- */
+
+.features-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
