@@ -33,8 +33,6 @@ address {
 }
 .container {
   width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -256,7 +254,6 @@ address {
 .team-info {
   padding-top: 32px;
   padding-bottom: 32px;
-  width: 264px;
 }
 
 .team-members {
