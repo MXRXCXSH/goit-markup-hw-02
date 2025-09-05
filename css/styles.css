@@ -118,7 +118,7 @@ address {
   align-items: center;
   gap: 40px;
 }
-/* -----------MAIN----------- */
+/* ----------- SECTION ONE (MAIN)----------- */
 
 .main-section {
   background-color: #2e2f42;
@@ -163,7 +163,7 @@ address {
   background-color: #404bbf;
 }
 
-/* -----------FEATURES----------- */
+/* ----------- SECTION TWO (FEATURES)----------- */
 
 .features-section {
   padding-top: 120px;
@@ -188,7 +188,7 @@ address {
   max-height: 104px;
   margin: 0 auto;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -211,7 +211,7 @@ address {
   color: #434455;
 }
 
-/* -----------TEAM----------- */
+/* ----------- SECTION THREE (TEAM)----------- */
 
 .team-section {
   padding-top: 120px;
@@ -269,7 +269,7 @@ address {
   text-align: center;
 }
 
-/* -----------PORTFOLIO----------- */
+/* ----------- SECTION FOUR (PORTFOLIO)----------- */
 
 .portfolio-header {
   font-size: 36px;
@@ -312,7 +312,7 @@ address {
 }
 
 .portfolio-list {
-  width: calc((100% - 2 * 24px) / 3);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 /* FOOTER */
